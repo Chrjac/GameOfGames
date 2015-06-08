@@ -1,0 +1,11 @@
+[
+    {
+        "ItemName": "Large Health Pack",
+        "ItemId": 1,
+        "ItemDesc": "Replenishes 40 health!",
+        "ItemValue": 1,
+        "ConsumableType": 0,
+        "AppendValue": 40,
+        "ItemIcon": "tileground"
+    }
+]

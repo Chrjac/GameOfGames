@@ -1,15 +1,29 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System;
+using UnityEngine;
 
-public class Item : MonoBehaviour {
+namespace Assets.Scripts.Items
+{
+    [Serializable]
+    public class Item : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+        public string ItemName;
+        public int ItemId;
+        public string ItemDesc;
+        public Sprite ItemIcon;
+        public int ItemValue;
+
+        public Item(string name, int id, string desc, int value)
+        {
+            ItemName = name;
+            ItemId = id;
+            ItemDesc = desc;
+            ItemValue = value;
+            ItemIcon = Resources.Load<Sprite>("tileground");
+        }
+
+        public Item()
+        {
+
+        }
+    }
 }
