@@ -2,6 +2,7 @@
 
 namespace Assets.Scripts.Items
 {
+    //Vi lager disse når vi leser fra json
 
     public class WeaponConstructed
     {
@@ -10,9 +11,11 @@ namespace Assets.Scripts.Items
         public string ItemDesc;
         public int ItemValue;
         public WeaponTypeDefines WeaponType;
-        public int WeaponStrength;
+        public int Power;
+        public int Range;
+        public int Spray;
         public string ItemIcon;
-        public string WeaponSprite;
+        public string WeaponModelpath;
         public int KnockbackX;
         public int KnockbackY;
         public string ProjectilePath;

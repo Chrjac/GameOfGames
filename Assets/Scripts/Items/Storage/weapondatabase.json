@@ -2,14 +2,15 @@
     {
         "ItemName": "Minigun",
         "ItemId": 1,
-        "ItemDesc": "This bow was made by an alcoholic blacksmith. Not a good bow.",
+        "ItemDesc": "Minigun. KILL.",
         "WeaponType": 1,
         "ItemValue": 10,
-        "WeaponStrength": 12,
+        "Power": 12,
+        "Range": 20,
+        "Spray": 3,
         "ItemIcon": "tileground",
-        "WeaponSprite": "8_bit_sword_by_xxx515xxx-d4lyhdi",
+        "WeaponModelpath": "8_bit_sword_by_xxx515xxx-d4lyhdi",
         "KnockbackX": 30,
-        "KnockbackY": 30,
-        "ProjectilePath": "Prefabs/Projectiles/Projectile"
+        "KnockbackY": 30
     }
 ]
